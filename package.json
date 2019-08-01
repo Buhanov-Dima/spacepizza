@@ -1,0 +1,23 @@
+{
+  "name": "spacepizza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bukhanov Dmitriy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buhanov-Dima/spacepizza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Buhanov-Dima/spacepizza/issues"
+  },
+  "homepage": "https://github.com/Buhanov-Dima/spacepizza#readme",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

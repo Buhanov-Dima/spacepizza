@@ -1,0 +1,528 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Space Pizza - доставка еды на дом в Перми, пицца, тортильи, лапша, супы, салаты</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto:300,400,700&display=swap" rel="stylesheet" />
+
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.css">
+</head>
+<body class="is-preload">
+
+
+<div class="main__wrapper">
+    
+
+<!--header-->
+<div id="header">
+    <div class="close__menu"></div>
+    <div class="top">
+        <div id="logo">
+            <a href="https://space-pizza.ru/"><img src="images/logo.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="test">
+            <div class="cart-text">В корзине:</div>
+            <div class="cart">
+                <button class="smart-basket__min">
+                    <img class="smart-basket__min-icon" src="smartbasket/img/icon.svg" width="18" alt="Корзина">
+                    <span class="smart-basket__min-count">0</span>
+                </button>
+                <a data-fancybox data-src="#animatedModal" href="javascript:;" class="btn btn-primary"></a>
+            </div>
+        </div>
+        <div class="wrap_menu hide">
+            <div id="phone">
+                <i class="fal fa-phone"></i><a href="tel:+73422839909">8 (342) 283-99-09</a>
+            </div>
+            <nav id="nav" class="d-center d-column">
+                <ul class="d-between d-column h-100">
+                    <li><a href="#pizza">Пицца</a></li>
+                    <li><a href="#combo">Комбо</a></li>
+                    <li><a href="#salad">Салаты</a></li>
+                    <li><a href="#snack">Закуски</a></li>
+                    <li><a href="#dessert">Десерты</a></li>
+                    <li><a href="#drink">Напитки</a></li>
+                    <li><a href="#sauce">Соусы</a></li>
+
+                    <li class="mob__open"><a href="#pizza">Акции</a></li>
+                    <li class="mob__open"><a href="#combo">Доставка и оплата</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="bottom">
+        <ul class="icons">
+            <li>
+                <a href="#" class="icon">
+                    <img src="images/icons/fa-vk.png" alt="">
+                    <img src="images/icons/fa-vk_h.png" class="icons--icon__hide" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon">
+                    <img src="images/icons/fa-fb.png" alt="">
+                    <img src="images/icons/fa-fb_h.png" class="icons--icon__hide" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="icon">
+                    <img src="images/icons/fa-in.png" alt="">
+                    <img src="images/icons/fa-in_h.png" class="icons--icon__hide" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="time-work">
+        <p>Пн-Вс: 10:00 - 23:00</p>
+    </div>
+</div>
+
+<!-- Мобильное меню открыть-->
+<div class="mob__menu"></div>
+
+<!--Content-->
+<div id="main">
+    <section class="one">
+        <div class="top-menu">
+            <nav id="nav-head">
+                <ul>
+                    <li><a href="#pizza">Акции</a></li>
+                    <li><a href="#combo">Доставка и оплата</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="logo-mobile">
+            <a href="http://spacepizza.ru/"><img src="images/logo.png" alt="" class="img-fluid"></a>
+        </div>
+    </section>
+    <section id="slider" class="mobile-none">
+        <div class="container">
+            <div class="slider owl-carousel owl-theme">
+                <div><img src="images/slider-1.jpg"></div>
+                <div><img src="images/slider-2.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <section id="pizza">
+        <div class="container">
+            <h2>Пицца</h2>
+            <div class="card">
+                <h4>Пицца «Пепперони»</h4>
+                <img src="images/01.png">
+                <p>Пепперони, перец халапеньо, сыр моцарелла, пицца-соус, травы прованса</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="390" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="470" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">390</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="001" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Пепперони»" data-sb-product-price="390"
+                        data-sb-product-quantity="1" data-sb-product-img="images/01.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Пицца «Мясная»</h4>
+                <img src="images/02.png">
+                <p>Сыр пармезан, пицца-соус, шампиньоны, курица, бекон, говядина, сладкий перец, зелень</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="440" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="520" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">440</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="002" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Мясная»" data-sb-product-price="440" data-sb-product-quantity="1"
+                        data-sb-product-img="images/02.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Пицца «4 сыра»</h4>
+                <img src="images/03.png">
+                <p>Пицца-соус, сыр моцарелла, сыр гауда, сыр дор блю, сыр пармезан</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="300" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="380" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">300</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="003" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «4 сыра»" data-sb-product-price="300" data-sb-product-quantity="1"
+                        data-sb-product-img="images/03.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Пицца «Гавайская»</h4>
+                <img src="images/04.png">
+                <p>Сыр пармезан, пицца-соус, курица, ананасы, сладкий перец</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="250" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="330" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">250</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="004" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Гавайская»" data-sb-product-price="250"
+                        data-sb-product-quantity="1" data-sb-product-img="images/04.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Пицца «Маргарита»</h4>
+                <img src="images/05.png">
+                <p>Сыр моцарелла, пицца-соус, помидоры, итальянские травы</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="200" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="280" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">200</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="005" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Маргарита»" data-sb-product-price="200"
+                        data-sb-product-quantity="1" data-sb-product-img="images/05.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Пицца «Космическая»</h4>
+                <img src="images/07.png">
+                <p>Сыр моцарелла, пицца-соус, бекон, пепперони, курица, красный лук, корнишоны, шампиньоны</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="510" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="590" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">510</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="007" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Космическая»" data-sb-product-price="510"
+                        data-sb-product-quantity="1" data-sb-product-img="images/07.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4 class="product__name">Пицца «Ветчина и грибы»</h4>
+                <img src="images/010.png" class="product__img">
+                <p>Сыр моцарелла, пицца-соус, ветчина, помидоры, сыр чеддер, орегано, зелень</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="280" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="360" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">280</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="010" data-sb-product-size="25"
+                        data-sb-product-name="Пицца «Ветчина и грибы»" data-sb-product-price="280"
+                        data-sb-product-quantity="1" data-sb-product-img="images/010.png">В корзину
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="combo">
+        <div class="container">
+            <h2>Комбо-наборы</h2>
+            <div class="card">
+                <h4>Комбо «№ 1»</h4>
+                <img src="images/011.png">
+                <p>Пицца «Маргарита», Пицца «Пепперони», Пицца «4 сыра», Пицца «Гавайская», Coca-Cola 1.5л</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="845" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="1095" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">1095</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="011" data-sb-product-size="25"
+                        data-sb-product-name="Комбо «№ 1»" data-sb-product-price="1095" data-sb-product-quantity="1"
+                        data-sb-product-img="images/011.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Комбо «№ 2»</h4>
+                <img src="images/012.png">
+                <p>Пицца «Пепперони», Пицца «Мясная», Coca-Cola 1.5л</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="650" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="790" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">790</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="012" data-sb-product-size="25"
+                        data-sb-product-name="Комбо «№ 2»" data-sb-product-price="790" data-sb-product-quantity="1"
+                        data-sb-product-img="images/012.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Комбо «№ 3»</h4>
+                <img src="images/013.png">
+                <p>Пицца «4 сыра», Пицца «Ветчина и грибы», Пицца «Домашняя», Coca-Cola 1.5л</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="660" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="835" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">835</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="013" data-sb-product-size="25"
+                        data-sb-product-name="Комбо «№ 3»" data-sb-product-price="835" data-sb-product-quantity="1"
+                        data-sb-product-img="images/013.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Комбо «№ 4»</h4>
+                <img src="images/014.png">
+                <p>Пицца «Пепперони», Пицца «Гавайская», Пицца «4 сыра», Пицца «Ветчина и грибы», Coca-Cola 1.5л</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="1430" data-sb-curent-size="25">25 см</div>
+                    <div class="product__size-element" data-sb-curent-price="1900" data-sb-curent-size="32">32 см</div>
+                </div>
+                <div class="product__price"><span class="product__price-number">1900</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="014" data-sb-product-size="25"
+                        data-sb-product-name="Комбо «№ 4»" data-sb-product-price="1900" data-sb-product-quantity="1"
+                        data-sb-product-img="images/014.png">В корзину
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="salad">
+        <div class="container">
+            <h2>Салаты</h2>
+            <div class="card">
+                <h4>Салат «Цезарь с курицей»</h4>
+                <img src="images/06.png">
+                <p>Сыр пармезан, помидоры черри, курица, салат айсберг, гренки, соус цезарь</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="300" data-sb-curent-size="210">210 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">300</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="006" data-sb-product-size="210"
+                        data-sb-product-name="Салат «Цезарь с курицей»" data-sb-product-price="300"
+                        data-sb-product-quantity="1" data-sb-product-img="images/06.png">В корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Салат «Греческий»</h4>
+                <img src="images/015.png">
+                <p>Салат айсберг, помидоры, огурцы, маслины, сыр "Фета", лук красный, соус "Итальянский"</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="170" data-sb-curent-size="220">220 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">170</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="015" data-sb-product-name="Салат «Греческий»"
+                        data-sb-product-price="170" data-sb-product-quantity="1" data-sb-product-img="images/015.png">В
+                    корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Салат «Цезарь с креветками»</h4>
+                <img src="images/06.png">
+                <p>Сыр пармезан, помидоры черри, креветки, салат айсберг, гренки, соус цезарь</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="390" data-sb-curent-size="190">190 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">390</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="016" data-sb-product-name="Салат «Цезарь с креветками»"
+                        data-sb-product-price="390" data-sb-product-quantity="1" data-sb-product-img="images/06.png">В
+                    корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Салат «Бруклин»</h4>
+                <img src="images/016.png">
+                <p>Салат айсберг, помидоры черри, маслины, базилик, масло растительное</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="150" data-sb-curent-size="165">165 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">150</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="017" data-sb-product-name="Салат «Бруклин»"
+                        data-sb-product-price="150" data-sb-product-quantity="1" data-sb-product-img="images/016.png">В
+                    корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Салат «Летний»</h4>
+                <img src="images/017.png">
+                <p>Салат айсберг, помидоры, огурцы, красный лук, морковь, соус майонезнный</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="160" data-sb-curent-size="190">190 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">160</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="019" data-sb-product-name="Салат «Бруклин»"
+                        data-sb-product-price="150" data-sb-product-quantity="1" data-sb-product-img="images/017.png">В
+                    корзину
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="snack">
+        <div class="container">
+            <h2>Закуски</h2>
+            <div class="card">
+                <h4>Тортилья «Классическая»</h4>
+                <img src="images/08.png">
+                <p>Сыр тостовой, курица, помидоры, салат айсберг, соус чесночный</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="190" data-sb-curent-size="220">220 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">190</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="008" data-sb-product-name="Тортилья «Классическая»"
+                        data-sb-product-price="190" data-sb-product-quantity="1" data-sb-product-img="images/08.png">В
+                    корзину
+                </button>
+            </div>
+            <div class="card">
+                <h4>Свинина в беконе</h4>
+                <img src="images/09.png">
+                <p>Свиная вырезка, бекон, помидоры, огурцы, пикантный соус, зелень</p>
+                <div class="product__size">
+                    <div class="product__size-element" data-sb-curent-price="400" data-sb-curent-size="350">350 гр.
+                    </div>
+                </div>
+                <div class="product__price"><span class="product__price-number">400</span> руб.</div>
+                <div class="product-quantity"></div>
+                <button class="buy" data-sb-id-or-vendor-code="009" data-sb-product-name="Свинина в беконе"
+                        data-sb-product-price="400" data-sb-product-quantity="1" data-sb-product-img="images/09.png">В
+                    корзину
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h1>Доставка пиццы в Перми</h1>
+            <p>Мы — Space Pizza, готовим и быстро доставляем еду для жителей и гостей Перми. Накормим вкусной пиццей
+                семью, порадуем романтическим ужином влюбленных, украсим вечеринку в кругу друзей сытными закусками.
+                Работаем на качество, следим за отзывами клиентов и удивляем новыми вкусами.</p>
+            <p>Заказать доставку пиццы и другой еды можно по номеру <b>8 (342) 283-99-09</b> или на сайте. Доставим в
+                офис и на дом бесплатно при сумме заказа от <b>400</b> рублей.</p>
+            <h4>«Space Pizza» — это всегда вкусно</h4>
+            <p>Если вы цените возможность выбора из широкого ассортимента, меню доставки пиццы, а также блюд японской
+                кухни нашего кафе точно придется вам по вкусу.</p>
+            <p>У нас есть то, что понравится каждому. Звоните или оставляйте онлайн-заявку: мы поможем организовать
+                свидание, дружескую встречу или ужин наедине с самим собой. Что бы вы ни планировали: позавтракать
+                свежей пиццей или заказать роллы на дом, меню кафе «Space Pizza» позволит воплотить в жизнь любые
+                планы.</p>
+            <p>Готовим еду из свежих ингредиентов и перевозим ее в качественных термосумках, поэтому вы можете не
+                сомневаться: она попадет к вам горячей и аппетитной. У нас собственный штат курьеров, поэтому наша
+                доставка быстрее, чем у конкурентов.</p>
+        </div>
+    </section>
+</div>
+
+<!-- footer -->
+<div id="footer">
+    <ul class="copyright">
+        <li>&copy; 2019 «Space Pizza», Пермь Доставка пиццы, салатов, закусок.</li>
+        <li>Разработка: <a href="http://dxb.su">dxb</a></li>
+    </ul>
+</div>
+
+<!-- basket -->
+<div style="display: none;" id="animatedModal" class="animated-modal">
+	<div class="wrap__form">
+		<div class="smart-basket">
+			<form class="smart-basket__form" action="mail.php" method="POST">
+				<div class="smart-basket__product-item">
+					<div class="smart-basket__product-name">Товар</div>
+					<div class="smart-basket__product-id">ID</div>
+					<div class="smart-basket__product-price">
+						Цена / ₽
+						<span class="smart-basket__info-icon">?</span>
+						<span class="smart-basket__info-msgs">Цена за 1 товар или услугу<button class="smart-basket__info-msgs-close">×</button></span>
+					</div>
+					<div class="smart-basket__product-quantity smart-basket__product-quantity_header">Кол-во</div>
+					<div class="smart-basket__product-price-common">Общая цена / ₽</div>
+					<div class="smart-basket__product-deleteed">Удалить</div>
+				</div>
+
+				<div class="smart-basket__result-common">
+					<div class="smart-basket__empty-title" style="display: none;">Корзина пуста. Вы не добавили ни одного	товара</div>
+					<div class="smart-basket__success-title" style="display: none;">Заказ принят. Ожидайте звонка</div>
+					<div class="smart-basket__quantity-common"><span>Всего товаров: </span> 1</div>
+					<div class="smart-basket__price-common">Общая стоимость: <span></span>.00 ₽
+						<input type="hidden" class="all__items__cost" name="all__items__cost" value="0">
+					</div>
+				</div>
+
+				<div class="smart-basket__user-form">
+					<div class="smart-basket__user-info">
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="text" placeholder="Введите улицу" name="userStr">
+						</div>
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="text" placeholder="Номер дома" name="userHou">
+						</div>
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="text" placeholder="Номер квартиры" name="userApa">
+						</div>
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="text" placeholder="Комментарий к заказу" name="userCom">
+						</div>
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="text" placeholder="Введите имя" name="userName" required>
+						</div>
+						<div class="smart-basket__input-wrapper">
+							<input class="smart-basket__user-input" type="tel" placeholder="Введите телефон" id="mask_phone" name="userTel" maxlength="16" required>
+						</div>
+					</div>
+                    <div class="dostavka">
+                        <div class="">
+                            <input type="radio" name="radio1" class="btn_radio" id="money" value="наличными" required>
+                            <label for="money">Наличными</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" name="radio1" class="btn_radio" id="karta" value="картой" required >
+                            <label for="karta">Картой курьеру</label>
+                        </div>
+                    </div>
+					<div class="smart-basket__footer">
+						<button data-fancybox-close class="smart-basket__close-form" >Продолжить покупки</button>
+						<button class="smart-basket__send-form" >Сделать заказ</button>
+						<div class="form__check">
+							<input type="checkbox" name="checkbox" class="checkbox" id="checkbox" required>
+							<label for="checkbox">Нажимая кнопку "сделать заказ" вы даете свое согласие на обработку персональных данных</label>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<!--scroll to top-->
+<div class="totop"><!--<i class="fal fa-angle-double-up" aria-hidden="true"></i>--></div>
+
+</div>
+
+<!-- Thanks -->
+<div class="wrap__thanks">
+	<div class="thanks">
+		<h2>Спасибо за заказ!</h2>
+		<p>Ваша заявка принята</p>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.inputmask.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
